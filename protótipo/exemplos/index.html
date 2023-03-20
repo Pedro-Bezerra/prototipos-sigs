@@ -8,27 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="principal">
+    <div id="area-principal">
         <a href="teste.html" class="nav">
             <div class="um"></div>
             <div class="dois"></div>
             <div class="tres"></div>
         </a>
-        <img id="imagem" alt="logo" src="../upe-universidade-de-pernambuco-logo-22AD28A03D-seeklogo.com.png" >
+        <img id="imagem" alt="logo-upe" src="../upe-universidade-de-pernambuco-logo-22AD28A03D-seeklogo.com.png">
         <div id="logo">
             SIG LOGO
         </div>
-        <div id="pesquisa">
-            <form action="">
-                <input class="teste" name="q" placeholder="Pesquisar..." type="search">
-                <button type="button">
-                    <img alt="lupa" class="botao" src="../search.png">
+        <div>
+            <form action="" id="area-pesquisa">
+                <button class="botao-pesquisar" type="button">
+                    <img alt="lupa" class="lupa" src="../search.png">
                 </button>
+                <input class="barra-pesquisa" name="q" placeholder="Pesquisar..." type="search">
+                
             </form>
         </div>
-        <div class="testando">
-            a
+        <div id="area-cadastro">
+            <form action="" id="cadastrar">
+                <button name="cadastro" class="entrar" type="button" >Entrar</button>
+            </form>
         </div>
+    </div>
+    <div id="area-imagem-mapa">
+        <img alt="mapa-principal" class="mapa-principal" src="../mapa.png">
     </div>
 </body>
 </html>
