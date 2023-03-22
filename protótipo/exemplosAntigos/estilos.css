@@ -3,13 +3,17 @@ body {
     padding: 0px;
 }
 
+:root {
+    --principal-color: #223F99;
+}
+
 /*** INÍCIO - borda superior ***/
 #area-principal {
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
 
-    background-color: #05359c;
+    background-color: var(--principal-color);
     height: 90px; 
     width: 100%;   
 }
@@ -46,7 +50,7 @@ body {
 
 .barra-pesquisa {
     display: flex;
-    background-color: #012166;
+    background-color: var(--principal-color);
     border-radius: 30px;
     color: #fff;
     text-indent: 5px;
@@ -59,7 +63,7 @@ body {
     display: flex;
     align-items: flex-start;
 
-    background: #012166;
+    background: var(--principal-color);
     border-radius: 30px;
     cursor: pointer;
     height: 40px;  
@@ -81,7 +85,7 @@ body {
 
 #cadastrar {
     border: 2px solid red;
-    background-color: #012166;
+    background-color: var(--principal-color);
     border-radius: 30px;
     cursor: pointer;
     width: 70px;
@@ -136,7 +140,8 @@ body {
     justify-content: center;
     margin: 20px auto;
     
-    background-color: #05359c;
+    background-color: var(--principal-color);
+    border: 2px solid red;
     border-radius: 40px;
     height: 600px;
     width: 1100px;
@@ -144,5 +149,6 @@ body {
 
 .mapa-principal {
     width: 1000px;
+    border: 2px solid red;
     border-radius: 20px;
 }
