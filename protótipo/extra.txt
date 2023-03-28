@@ -1,0 +1,271 @@
+    <!--<div class="area-mapas">
+        <div class="area-mapas__conteudo">
+            <span class="area-mapas__conteudo--texto">
+                <h2>Mapas fixos</h2><br>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quos natus temporibus unde modi aperiam, dignissimos earum eius ipsa quibusdam dolorum deleniti deserunt cumque dolores quidem eveniet animi fuga. Quisquam?</p><br>
+                <button class="area-mapas__conteudo--botao" ype="button">
+                    Explore
+                    <i class="area-mapas__conteudo--icone">&#129042;</i>
+                </button>
+            </span>
+            <div class="area-mapas__imagem">
+                <img class="area-mapas__conteudo--imagem" src="../media/img-1-small580.png" alt="imagem1">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum earum, quos voluptas tempore quidem natus corporis temporibus eveniet ipsum delectus veritatis dignissimos neque ipsa iure vero repellendus quibusdam at.</p>
+                <button class="area-mapas__imagem--botao" ype="button">
+                    <i class="area-mapas__imagem--icone">&#129042;</i>
+                </button>
+            </div>
+            <div class="area-mapas__imagem"> 
+                <img class="area-mapas__conteudo--imagem" src="../media/mapa-fisico-br-dgc.PNG" alt="imagem2">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro illum dolore itaque. Quod cupiditate magnam rem! Fugit ipsa ab amet architecto? Repudiandae sit est sint culpa eum, aliquid hic consequatur.</p>
+                <button class="area-mapas__imagem--botao" ype="button">
+                    <i class="area-mapas__imagem--icone">&#129042;</i>
+                </button>
+            </div>
+            <div class="area-mapas__imagem">
+                <img class="area-mapas__conteudo--imagem" src="../media/saibaMais_1-250_2021.jpg" alt="imagem3">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut aspernatur optio velit magnam enim nulla fugit nisi tempora explicabo quis! Sit eaque enim deserunt fugiat sequi eos nobis? Accusantium, architecto?</p>
+                <button class="area-mapas__imagem--botao" ype="button">
+                    <i class="area-mapas__imagem--icone">&#129042;</i>
+                </button>
+            </div> 
+        </div> 
+    </div>
+    <div class="area-rodape">
+        <div class="area-rodape__um">
+            <h3>Logo</h3>
+            <p>Copyright © 2023 LAPES</p>
+        </div>
+        <div class="area-rodape__dois">
+            <h3>Menu</h3>
+            <p>Mapa</p>
+            <p>Mapas fixos</p>
+            <p>Quem somos</p>
+        </div>
+        <div class="area-rodape__tres">
+            <h3>Endereço físico</h3>
+            <p>Rua Josimar Rogério, 1227Colatina-ES<br>CNPJ: 94.126.614/0001-68</p>
+
+            <h3>Fale conosco</h3>
+            <p>lapesemal@email.com</p>
+        </div>
+    </div>-->
+
+/*span > h2 {
+    font-weight: 400;
+    color: var(--principal-color);
+    text-align: right;
+    font-size: 25px;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span  p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+
+}
+
+span hr {
+    width: 170px;
+    border: 2px solid #00235B;
+    margin-left: 91px;
+    margin-right: 0px;
+}
+
+div > h2 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--principal-color);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+div p {
+    text-align: justify;
+    margin: 27px 10px;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div hr {
+    width: 190px;
+    height: 0px;
+
+    /* azul escuro */
+
+   /* border: 3px solid var(--principal-color);
+
+    /* Inside auto layout */
+
+   /* flex: none;
+    order: 1;
+    flex-grow: 0
+}
+
+.area-barra {
+    border: red 2px solid;
+    background-color: var(--principal-color);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+/*** INÍCIO - navegação lateral (três barras) ***/
+/*.area-barra__nav div {
+    background-color: #fff;
+    border-radius: 25px;
+    height: 4px;
+    margin: 9px 0;
+    transition: 0.3s;
+}
+
+.area-barra__nav {
+    display: block;
+    width: 30px;
+    margin: 1.4em 0 0 1em;
+}
+
+.area-barra__nav--um {
+    width: 40px;
+    margin: 3px;
+}
+
+.area-barra__nav--dois {
+    width: 30px;
+    margin: 3px;
+}
+
+.area-barra__nav--tres {
+    width: 35px;
+    margin: 3px;
+}
+
+.area-barra__nav:hover div {
+    width: 40px;
+}*/
+/*** FIM - navegação lateral (três barras) ***/
+
+/*.area-barra__nav--logo {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.area-barra__botao {
+    background-color: var(--transparente);
+    border-color: #fff;
+    height: 45px;
+    width: 127px;
+    left: 1315.5px;
+    top: 32.5px;
+    border-radius: 31px;
+    color: #fff;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.area-barra__icone {
+    background-color: #fff;
+}
+
+.area-mapa-principal {
+    border: red 2px solid;
+    display: flex;
+    align-items: center;
+    margin: 20px 300px;
+}
+*/
+
+
+    /*
+.area-quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    
+    margin: 200px 0px;
+    background-color: #F5F5F5;
+    height: 522px;
+    width: 1039px;
+    left: 0px;
+    top: 1680px;
+    padding: 106px 240px 106px 240px;
+
+}
+
+.area-quem-somos__titulo {
+    height: 24px;
+    width: 124px;
+    border-radius: nullpx;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.area-quem-somos__texto {
+    width: 100%;
+    height: 144px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: var(--principal-color);
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.area-logos {
+  
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 63px 414px;
+    gap: 50px;
+
+    position: absolute;
+    width: 690px;
+    height: 303px;
+    left: 0px;
+    top: 2073px;
+
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.area-logos--upe {
+    width: 128.37px;
+    height: 100px;
+}
+
+.area-logos--governoPE {
+    width: 104.92px;
+    height: 100px;
+}
+*/
